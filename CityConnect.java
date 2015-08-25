@@ -212,8 +212,9 @@ public class CityConnect {
 	}
 
 	/**
-	 * @return Returns the position of the route represented by 
-	 *    newStartLocation and newEndLocation. Returns NOT_FOUND if not found.
+	 * @return the position of the route represented by 
+	 *    newStartLocation and newEndLocation. 
+	 * @returns NOT_FOUND if not found.
 	 */
 	private static int  getPositionOfExistingRoute(String newStartLocation,
 			String newEndLocation) {
