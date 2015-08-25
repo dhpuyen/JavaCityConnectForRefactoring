@@ -165,8 +165,9 @@ public class CityConnect {
 	 *            is the first word of the user command
 	 */
 	private static COMMAND_TYPE determineCommandType(String commandTypeString) {
-		if (commandTypeString == null)
+		if (commandTypeString == null){
 			throw new Error("command type string cannot be null!");
+		}
 
 		if (commandTypeString.equalsIgnoreCase("addroute")) {
 			return COMMAND_TYPE.ADD_ROUTE;
@@ -203,8 +204,7 @@ public class CityConnect {
 			return String.format(MESSAGE_NO_ROUTE, newStartLocation,
 					newEndLocation);
 		} 
-		else 
-		{
+		else {
 			return String.format(MESSAGE_DISTANCE, newStartLocation, newEndLocation,
 					route[position][STORAGE_POSITION_DISTANCE]);
 		}
