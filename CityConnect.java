@@ -15,22 +15,22 @@ import java.util.Scanner;
  * The storage limit for this version is 10 routes.
  * In the case more than multiple routes between the same two locations were entered,
  * we store only the latest one. The command format is given by the example interaction below:
-
- Welcome to SimpleRouteStore!
- Enter command:addroute Clementi BuonaVista 12
- Route from Clementi to BuonaVista with distance 12km added
- Enter command:getdistance Clementi BuonaVista
- Distance from Clementi to BuonaVista is 12
- Enter command:getdistance clementi buonavista
- Distance from clementi to buonavista is 12
- Enter command:getdistance Clementi JurongWest
- No route exists from Clementi to JurongWest!
- Enter command:addroute Clementi JurongWest 24
- Route from Clementi to JurongWest with distance 24km added
- Enter command:getdistance Clementi JurongWest
- Distance from Clementi to JurongWest is 24
- Enter command:exit
-
+ *
+ * Welcome to SimpleRouteStore!
+ * Enter command:addroute Clementi BuonaVista 12
+ * Route from Clementi to BuonaVista with distance 12km added
+ * Enter command:getdistance Clementi BuonaVista
+ * Distance from Clementi to BuonaVista is 12
+ * Enter command:getdistance clementi buonavista
+ * Distance from clementi to buonavista is 12
+ * Enter command:getdistance Clementi JurongWest
+ * No route exists from Clementi to JurongWest!
+ * Enter command:addroute Clementi JurongWest 24
+ * Route from Clementi to JurongWest with distance 24km added
+ * Enter command:getdistance Clementi JurongWest
+ * Distance from Clementi to JurongWest is 24
+ * Enter command:exit
+ *
  * @author Dave Jun
  */
 public class CityConnect {
